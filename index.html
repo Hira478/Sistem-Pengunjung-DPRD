@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manajemen Pengunjung DPRD Kota Bogor</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <!-- Halaman Form Input -->
+  <div class="container">
+    <div class="form-section">
+      <h1>Form Kunjungan</h1>
+      <form id="visitorForm">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="telepon">Nomor Telepon:</label>
+        <input type="tel" id="telepon" name="telepon" required>
+
+        <label for="tujuan">Tujuan Kunjungan:</label>
+        <input type="text" id="tujuan" name="tujuan" required>
+
+        <label for="tanggal">Tanggal:</label>
+        <input type="date" id="tanggal" name="tanggal" required>
+
+        <button type="button" id="submitButton">Submit</button>
+      </form>
+    </div>
+    <div class="logo-section">
+      <img src="/img/dprd.jpg" alt="Logo DPRD Kota Bogor">
+    </div>
+  </div>
+
+  <!-- Halaman Daftar Kunjungan -->
+  <div class="list-section">
+    <h1>Daftar Kunjungan</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Nomor Telepon</th>
+          <th>Tujuan Kunjungan</th>
+          <th>Tanggal</th>
+        </tr>
+      </thead>
+      <tbody id="visitorTableBody">
+        <!-- Data akan ditambahkan di sini dengan JavaScript -->
+      </tbody>
+    </table>
+  </div>
+  <script src="/script.js"></script>
+</body>
+
+</html>
