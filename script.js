@@ -48,9 +48,9 @@ function addDummyData() {
       tanggal: "2024-12-25",
     },
     {
-      nama: "Malena",
+      nama: "Malenia",
       telepon: "08231864990",
-      tujuan: "Mengurus Surat (Urgent)",
+      tujuan: "Mengurus Surat (Penting)",
       tanggal: "2024-12-20",
     },
     {
@@ -58,6 +58,18 @@ function addDummyData() {
       telepon: "08231176397",
       tujuan: "Internship",
       tanggal: "2024-12-29",
+    },
+    {
+      nama: "Putri Suluh",
+      telepon: "08147390827",
+      tujuan: "Mengurus Surat Anggaran Daerah",
+      tanggal: "2024-12-05",
+    },
+    {
+      nama: "Andre Widoyo Kusumo",
+      telepon: "08991773909",
+      tujuan: "Laporan Kasus",
+      tanggal: "2024-12-28",
     },
   ];
 
